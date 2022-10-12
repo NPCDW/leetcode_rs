@@ -1,3 +1,4 @@
+#[allow(dead_code)]
 pub fn are_almost_equal(s1: String, s2: String) -> bool {
     let mut list = vec![];
     let chars1 = s1.chars().collect::<Vec<char>>();
