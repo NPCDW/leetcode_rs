@@ -1,1 +1,2 @@
 mod examination;
+mod structs;
