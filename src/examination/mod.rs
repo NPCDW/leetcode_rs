@@ -4,3 +4,4 @@ mod linked_list_components;
 mod build_an_array_with_stack_operations;
 mod fruit_into_baskets;
 mod palindrome_number;
+mod number_of_students_unable_to_eat_lunch;
