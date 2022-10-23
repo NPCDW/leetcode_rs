@@ -8,3 +8,4 @@ mod number_of_students_unable_to_eat_lunch;
 mod k_th_symbol_in_grammar;
 mod online_stock_span;
 mod add_two_numbers;
+mod merge_strings_alternately;
