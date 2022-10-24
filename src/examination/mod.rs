@@ -9,3 +9,4 @@ mod k_th_symbol_in_grammar;
 mod online_stock_span;
 mod add_two_numbers;
 mod merge_strings_alternately;
+mod partition_array_into_disjoint_intervals;
