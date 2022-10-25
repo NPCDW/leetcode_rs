@@ -10,3 +10,4 @@ mod online_stock_span;
 mod add_two_numbers;
 mod merge_strings_alternately;
 mod partition_array_into_disjoint_intervals;
+mod shortest_bridge;
