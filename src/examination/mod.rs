@@ -11,3 +11,5 @@ mod add_two_numbers;
 mod merge_strings_alternately;
 mod partition_array_into_disjoint_intervals;
 mod shortest_bridge;
+mod shortest_subarray_with_sum_at_least_k;
+mod sign_of_the_product_of_an_array;
