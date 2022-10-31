@@ -15,3 +15,4 @@ mod shortest_subarray_with_sum_at_least_k;
 mod sign_of_the_product_of_an_array;
 mod longest_substring_without_repeating_characters;
 mod letter_case_permutation;
+mod magical_string;
