@@ -16,3 +16,4 @@ mod sign_of_the_product_of_an_array;
 mod longest_substring_without_repeating_characters;
 mod letter_case_permutation;
 mod magical_string;
+mod check_if_two_string_arrays_are_equivalent;

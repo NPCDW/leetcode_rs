@@ -1,3 +1,4 @@
+#[allow(dead_code)]
 pub fn magical_string(n: i32) -> i32 {
     let mut chars = vec!['1', '2', '2'];
     let mut index = 2;
