@@ -3,10 +3,6 @@ use std::sync::mpsc::{Sender, channel};
 use std::thread;
 use std::time::Duration;
 
-trait DebounceFn<T> {
-    fn run(&self, t: &T);
-}
-// impl DebounceFn<T> + Send + 'static,
 #[allow(dead_code)]
 fn debounce<T: Send + Debug + 'static>(
     f: impl Fn(&T) + Send + 'static,
@@ -48,10 +44,9 @@ mod debounce_test {
         thread::sleep(Duration::from_millis(600));
         let res = tx.send(4);
         if res.is_err() {
-            let new_tx = debounce(|x| {
+            tx = debounce(|x| {
                 println!("debounce: {:?}", x);
             }, Duration::from_millis(500));
-            tx = new_tx;
             tx.send(4).unwrap();
         }
         tx.send(5).unwrap();
@@ -59,6 +54,8 @@ mod debounce_test {
         tx.send(6).unwrap();
         thread::sleep(Duration::from_millis(400));
         tx.send(7).unwrap();
+        thread::sleep(Duration::from_millis(400));
+        tx.send(8).unwrap();
         thread::sleep(Duration::from_millis(2000));
     }
 }
