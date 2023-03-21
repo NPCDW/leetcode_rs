@@ -18,3 +18,5 @@ mod letter_case_permutation;
 mod magical_string;
 mod check_if_two_string_arrays_are_equivalent;
 mod maximum_repeating_substring;
+mod rand;
+mod debounce;
