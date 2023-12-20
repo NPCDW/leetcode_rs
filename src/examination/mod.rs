@@ -20,3 +20,5 @@ mod check_if_two_string_arrays_are_equivalent;
 mod maximum_repeating_substring;
 mod rand;
 mod debounce;
+mod parallel_courses_iii;
+mod check_if_a_string_is_an_acronym_of_words;
