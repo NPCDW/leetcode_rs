@@ -22,3 +22,4 @@ mod rand;
 mod debounce;
 mod parallel_courses_iii;
 mod check_if_a_string_is_an_acronym_of_words;
+mod roman_to_integer;
